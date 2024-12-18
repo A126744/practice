@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0 -15px;
+        }
+
+        .col-lg-4,
+        .col-md-6 {
+            padding: 15px;
+            box-sizing: border-box;
+            flex: 1 1 30%; /* Adjusts for larger screens */
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            background-color: #fff;
+        }
+
+        .team-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .team-card h4 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .team-card p {
+            color: #777;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Music Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./glry.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- About Us Section -->
+<section id="about" class="about py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="about-content">
+                    <h4>Our Mission</h4>
+                    <p>
+                        At Music Site, our mission is to connect music lovers with the best artists and their creations. We believe that music transcends boundaries and has the power to inspire, heal, and unite people from all walks of life.
+                    </p>
+                </div>
+                <div class="about-content">
+                    <h4>Our Values</h4>
+                    <ul>
+                        <li><i class="fas fa-music"></i> Passion for Music</li>
+                        <li><i class="fas fa-users"></i> Community Engagement</li>
+                        <li><i class="fas fa-shield-alt"></i> Integrity and Authenticity</li>
+                        <li><i class="fas fa-lightbulb"></i> Innovation in Experience</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="about-content">
+                    <h4>What We Offer</h4>
+                    <p>
+                        Our platform offers a wide variety of features, including artist profiles, trending albums, and a curated selection of music that caters to every taste. Whether you're looking for the latest hits or classic tunes, we’ve got you covered.
+                    </p>
+                </div>
+                <div class="about-content">
+                    <h4>Join Us</h4>
+                    <p>
+                        Become a part of our growing community of music enthusiasts. Sign up today to stay updated on the latest releases, events, and exclusive offers!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 team-member">
+                <div class="team-card">
+                    <img src="./pics/aboutimg.webp" alt="Team Member">
+                    <h4>Chris Kashif</h4>
+                    <p>CEO & Founder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <h5>Stay Connected</h5>
+        <form class="mb-3">
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="Subscribe to our newsletter" aria-label="Email" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </form>
+        
+        <div class="mb-3">
+            <a href="https://www.facebook.com/people/Chris-kashif/100064036362765/?_rdr" class="text-white me-2">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://es.pinterest.com/chriskashif/" class="text-white me-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/chriskashif999/" class="text-white me-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/c/chriskashifmusic/videos" class="text-white">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+        <p class="mb-1">&copy; 2023 Music Site. All rights reserved.</p>
+        <p class="mb-0">
+            <a href="#about" class="text-white">About Us</a> | 
+            <a href="#contact" class="text-white">Contact</a> | 
+            <a href="#privacy" class="text-white">Privacy Policy</a>
+        </p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

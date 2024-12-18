@@ -1,0 +1,197 @@
+/* Navbar Styles */
+.navbar {
+    padding: 15px 30px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fffcfc !important; /* Brand color */
+}
+
+.nav-link {
+    color: #fff !important; /* Default link color */
+}
+
+.nav-link:hover {
+    color: #ff6347 !important; /* Tomato color on hover */
+}
+
+.img {
+    height: 80px;
+    width: 80px;
+}
+
+.pt-3 {
+    position: relative;
+    right: 20px; /* Adjusts position to the right */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem; /* Smaller brand size for mobile */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* Smaller link size for mobile */
+    }
+
+    .pt-3 {
+        right: 10px; /* Adjust right position for smaller screens */
+    }
+}
+
+/* hero/ */
+.hero {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.445); /* Semi-transparent background for readability */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ff6347; /* Tomato color */
+    border: none;
+}
+
+/* carts */
+.card {
+    height: 100%; /* Ensure card takes full height */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out content evenly */
+    align-items: center; /* Center the content */
+}
+/* middle hero. */
+.middle-hero {
+    background-color: #343a40; /* Light background color */
+    padding: 50px 0; /* Adjust padding for visual space */
+    border-top: 1px solid #e0e0e0; /* Optional: a subtle border for separation */
+}
+
+.middle-hero h2 {
+    color: #e0e0e0; /* Darker color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.middle-hero p {
+    color: #6c757d; /* Grey color for the paragraph */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+/* contact us/ */
+.contact {
+    background-color: #f8f9fa; /* Light background color for the contact section */
+}
+
+.contact h2 {
+    color: #343a40; /* Darker color for the heading */
+}
+
+.contact p {
+    color: #6c757d; /* Grey color for the text */
+}
+/* footer// */
+footer {
+    background-color: #343a40; /* Dark background */
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+footer .input-group {
+    max-width: 400px;
+    margin: 0 auto 1.5rem;
+}
+
+footer .input-group input {
+    border-radius: 0;
+    border: 1px solid #007bff; /* Blue border */
+}
+
+footer .input-group button {
+    border-radius: 0;
+}
+
+footer .mb-3 a {
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s ease;
+}
+
+footer .mb-3 a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #ffffff; /* White links */
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #007bff; /* Change color on hover */
+}
+/* about/ */
+.about {
+    background-color: #f8f9fa; /* Light background */
+    padding: 60px 0; /* More padding */
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    background: #ffffff; /* White background for content cards */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h4 {
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove left padding */
+}
+
+.about ul li {
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+.about ul li i {
+    color: #007bff; /* Icon color */
+    margin-right: 8px; /* Space between icon and text */
+}
